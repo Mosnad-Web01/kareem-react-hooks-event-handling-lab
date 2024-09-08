@@ -1,3 +1,4 @@
+/* eslint-disable react/no-deprecated */
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -6,7 +7,8 @@ import EyesOnMe from './components/EyesOnMe';
 
 ReactDOM.render(
   <div>
-    <Keypad />
+    
+    <Keypad  />
     <EyesOnMe />
   </div>,
   document.getElementById('root')
